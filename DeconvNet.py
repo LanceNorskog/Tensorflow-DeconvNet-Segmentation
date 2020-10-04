@@ -68,7 +68,7 @@ class MaxUnpoolWithArgmax(Layer):
 
 class DeconvNet:
     def __init__(self, use_cpu=False, print_summary=False):
-        self.maybe_download_and_extract()
+        #self.maybe_download_and_extract()
         self.build(use_cpu=use_cpu, print_summary=print_summary)
 
         
